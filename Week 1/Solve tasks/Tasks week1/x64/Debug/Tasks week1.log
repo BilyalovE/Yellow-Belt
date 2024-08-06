@@ -1,0 +1,3 @@
+﻿  Tasks week1.cpp
+D:\Документы\Yellow-belt\Week 1\Solve tasks\Tasks week1\Tasks week1.cpp(179,10): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+  Tasks week1.vcxproj -> D:\Документы\Yellow-belt\Week 1\Solve tasks\Tasks week1\x64\Debug\Tasks week1.exe

@@ -25,3 +25,14 @@
 * [Тесты для класса](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%202/Tasks/Task%20(3).md)
 * [Тесты для класса Rational](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%202/Tasks/Task%20(4).md)
 * [Тесты для функции IsPalindrom](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%202/Tasks/Task%20(5).md)
+
+# Неделя 3
+## <a href="https://disk.yandex.ru/d/ATo3KwFifX3TMw" style="color: black">Видеолеции</a>
+## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week3.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Реализовать функции, объявленные в заголовочном файле](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%201/Task%20(1).md) 
+* [Реализовать класс, объявленный в заголовочном файле](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%202/Task%202.md)  
+* [Написать объявление класса](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md)
+* [Декомпозиция программы — 2](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md)
+

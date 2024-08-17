@@ -3,7 +3,7 @@
 
 Вам дан заголовочный файл *phone_number.h*, содержащий объявление класса *PhoneNumber*. При этом в комментариях описано поведение, которое ожидается от реализации этого класса.
 
-[phone_number.h](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_3/02%20Programming%20Assignment/Source/phone_number.h)
+[phone_number.h](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%202/Example.cpp)
 
 ```objectivec
 #pragma once

@@ -3,7 +3,7 @@
 
 Вам дан заголовочный файл *sum_reverse_sort.h*, содержащий объявления трёх функций
 
-[sum_reverse_sort.h](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_3/01%20Programming%20Assignment/Source/sum_reverse_sort.h)
+[sum_reverse_sort.h](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%201/Example.cpp)
 
 ```objectivec
 #pragma once

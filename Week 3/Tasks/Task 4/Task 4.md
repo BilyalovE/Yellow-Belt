@@ -31,4 +31,4 @@
 
 Заготовка файла *main.cpp*:
 
-[main.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_3/04%20Programming%20Assignment/Source/main.cpp)
+[main.cpp](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/main.cpp)

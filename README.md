@@ -1,5 +1,5 @@
 # Решения задач специализации "Искусство разработки на современном С++". Курс "Основы разработки на С++: желтый пояс"
-![belt.jpg](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%201/belt.jpg)
+![belt.jpg](https://github.com/BilyalovE/Belt/blob/main/Week%201/belt.jpg)
 
 
 # Неделя 1

@@ -1,68 +1,96 @@
-#### Тренировочное задание по программированию: Имена и фамилии — 4 ####
+#### Задание по программированию: Группировка строк по префиксу ####
 
 
-*Решите задачу [«Имена и фамилии — 1»](https://www.coursera.org/learn/c-plus-plus-white/programming/4FQn4/imiena-i-familii-1) более эффективно, использовав двоичный поиск в методе Person::GetFullName. Напомним условие задачи.*
+#### Часть 1. Группировка по символу ####
+Напишите функцию *FindStartsWith*:
 
-Реализуйте класс для человека, поддерживающий историю изменений человеком своих фамилии и имени.
+* принимающую отсортированный набор строк в виде итераторов *range_begin*, *range_end* и один символ *prefix*;
+* возвращающую диапазон строк, начинающихся с символа *prefix*, в виде пары итераторов.
 ```objectivec
-class Person {
-public:
-  void ChangeFirstName(int year, const string& first_name) {
-    // добавить факт изменения имени на first_name в год year
-  }
-  void ChangeLastName(int year, const string& last_name) {
-    // добавить факт изменения фамилии на last_name в год year
-  }
-  string GetFullName(int year) {
-    // получить имя и фамилию по состоянию на конец года year
-    // с помощью двоичного поиска
-  }
-private:
-  // приватные поля
-};
+template <typename RandomIt>
+pair<RandomIt, RandomIt> FindStartsWith(
+    RandomIt range_begin, RandomIt range_end,
+    char prefix);
 ```
-Считайте, что в каждый год может произойти не более одного изменения фамилии и не более одного изменения имени. При этом с течением времени могут открываться всё новые факты из прошлого человека, поэтому года́ в последовательных вызовах методов *ChangeLastName* и *ChangeFirstName* не обязаны возрастать.
+Если итоговый диапазон пуст, его границы должны указывать на то место в контейнере, куда можно без нарушения порядка сортировки вставить любую строку, начинающуюся с символа *prefix* (подобно алгоритму *equal_range*). Гарантируется, что строки состоят лишь из строчных латинских букв и символ *prefix* также является строчной латинской буквой.
 
-Гарантируется, что все имена и фамилии непусты.
+Поиск должен осуществляться за логарифмическую сложность — например, с помощью двоичного поиска.
 
-Строка, возвращаемая методом *GetFullName*, должна содержать разделённые одним пробелом имя и фамилию человека по состоянию на конец данного года.
-
-* Если к данному году не случилось ни одного изменения фамилии и имени, верните строку **"Incognito"**.
-* Если к данному году случилось изменение фамилии, но не было ни одного изменения имени, верните **"last_name with unknown first name"**.
-* Если к данному году случилось изменение имени, но не было ни одного изменения фамилии, верните **"first_name with unknown last name"**.
-
-##### Пример #####
-###### Код ######
+##### Пример кода #####
 ```objectivec
 int main() {
-  Person person;
+  const vector<string> sorted_strings = {"moscow", "murmansk", "vologda"};
   
-  person.ChangeFirstName(1965, "Polina");
-  person.ChangeLastName(1967, "Sergeeva");
-  for (int year : {1900, 1965, 1990}) {
-    cout << person.GetFullName(year) << endl;
+  const auto m_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), 'm');
+  for (auto it = m_result.first; it != m_result.second; ++it) {
+    cout << *it << " ";
   }
+  cout << endl;
   
-  person.ChangeFirstName(1970, "Appolinaria");
-  for (int year : {1969, 1970}) {
-    cout << person.GetFullName(year) << endl;
-  }
+  const auto p_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), 'p');
+  cout << (p_result.first - begin(sorted_strings)) << " " <<
+      (p_result.second - begin(sorted_strings)) << endl;
   
-  person.ChangeLastName(1968, "Volkova");
-  for (int year : {1969, 1970}) {
-    cout << person.GetFullName(year) << endl;
-  }
+  const auto z_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), 'z');
+  cout << (z_result.first - begin(sorted_strings)) << " " <<
+      (z_result.second - begin(sorted_strings)) << endl;
   
   return 0;
 }
 ```
 ###### Вывод ######
 ```commandline
-Incognito
-Polina with unknown last name
-Polina Sergeeva
-Polina Sergeeva
-Appolinaria Sergeeva
-Polina Volkova
-Appolinaria Volkova
+moscow murmansk
+2 2
+3 3
+```
+
+##### Подсказка #####
+К символам (*char*) можно прибавлять или вычитать числа, получая таким образом следующие или предыдущие буквы в алфавитном порядке. Например, для строки *s* выражение *--s[0]* заменит её первую букву на предыдущую.
+
+Обратите внимание, что выражение *'a' + 1* имеет тип *int* и поэтому может понадобиться привести его к типу *char* с помощью *static_cast*.
+
+#### Часть 2. Группировка по префиксу ####
+Напишите более универсальный вариант функции *FindStartsWith*, принимающий в качестве префикса произвольную строку, состоящую из строчных латинских букв.
+```objectivec
+template <typename RandomIt>
+pair<RandomIt, RandomIt> FindStartsWith(
+    RandomIt range_begin, RandomIt range_end,
+    const string& prefix);
+    
+```
+
+##### Пример кода #####
+```objectivec
+int main() {
+  const vector<string> sorted_strings = {"moscow", "motovilikha", "murmansk"};
+  
+  const auto mo_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), "mo");
+  for (auto it = mo_result.first; it != mo_result.second; ++it) {
+    cout << *it << " ";
+  }
+  cout << endl;
+  
+  const auto mt_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), "mt");
+  cout << (mt_result.first - begin(sorted_strings)) << " " <<
+      (mt_result.second - begin(sorted_strings)) << endl;
+  
+  const auto na_result =
+      FindStartsWith(begin(sorted_strings), end(sorted_strings), "na");
+  cout << (na_result.first - begin(sorted_strings)) << " " <<
+      (na_result.second - begin(sorted_strings)) << endl;
+  
+  return 0;
+}
+```
+###### Вывод ######
+```commandline
+moscow motovilikha
+2 2
+3 3
 ```

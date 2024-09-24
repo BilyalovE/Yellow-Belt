@@ -36,11 +36,19 @@
 * [Написать объявление класса](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md)
 * [Декомпозиция программы — 2](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md)
 
-# Неделя 4
+# Неделя 4     
+## <a href="https://disk.yandex.ru/d/2u60LLiNoeLIpA" style="color: black">Видеолеции</a>
 ## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week3.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Часть вектора](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%201.md) 
 * [Часть множества](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%202.md)  
 * [Разбиение на слова](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%203.md)
-* [Декомпозиция программы — 2](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md)
+* [Удаление поворов](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%204.md)
+* [Перебор перестановок](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%205.md)
+* [Демографические показатели](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%206.md)
+* [Сортировка слиянием](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%207.md)
+* [Поиск ближайшего элемента](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%208.md)
+* [Имена и фамилии — 4](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%209.md)
+* [Группировка строк по префиксу](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%210.md)
+* [Построение арифметического выражения](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%211.md)

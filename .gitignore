@@ -3,9 +3,8 @@
 ################################################################################
 
 *.vs
-*Debug
-*.DS_Store
+Debug
+.DS_Store
 *.cproject
 *.project
-*.settings
-
+.settings

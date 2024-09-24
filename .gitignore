@@ -4,7 +4,10 @@
 
 *.vs
 *Debug
-*.DS_Store
 *.cproject
 *.project
 *.settings
+
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store

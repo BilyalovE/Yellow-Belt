@@ -36,3 +36,11 @@
 * [Написать объявление класса](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%203/Task%203.md)
 * [Декомпозиция программы — 2](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md)
 
+# Неделя 4
+## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week3.pdf" style="color: black">Конспект лекций</a>
+## Задачи
+
+* [Часть вектора](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%201.md) 
+* [Часть множества](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%202.md)  
+* [Разбиение на слова](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%203.md)
+* [Декомпозиция программы — 2](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%204/Task%204.md)

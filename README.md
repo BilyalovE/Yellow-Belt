@@ -50,5 +50,5 @@
 * [Сортировка слиянием](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%207.md)
 * [Поиск ближайшего элемента](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%208.md)
 * [Имена и фамилии — 4](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%209.md)
-* [Группировка строк по префиксу](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%210.md)
-* [Построение арифметического выражения](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%211.md)
+* [Группировка строк по префиксу](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%2010.md)
+* [Построение арифметического выражения](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%2011.md)

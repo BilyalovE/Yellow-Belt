@@ -41,6 +41,7 @@ void PrintVectorPart(const vector<int>& numbers){
 }
 
 
+
 int main() {
   PrintVectorPart({6, 1, 8, -5, 4});
   PrintVectorPart({-6, 1, 8, -5, 4});  // ничего не выведется

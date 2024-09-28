@@ -17,11 +17,17 @@ template <typename RandomIt>
 pair<RandomIt, RandomIt> FindStartsWith(
     RandomIt range_begin, RandomIt range_end, const string& prefix)
 {
-    auto begin_it = lower_bound(range_begin, range_end, prefix);
+    /*auto begin_it = lower_bound(range_begin, range_end, prefix);
     string new_prefix = prefix;
     new_prefix.back()++;
     auto end_it = upper_bound(range_begin, range_end, new_prefix);
-    return make_pair(begin_it, end_it);
+    return make_pair(begin_it, end_it);*/
+    auto itr = std::equal_range(range_begin, range_end, prefix,
+            [&prefix](const std::string& x, const std::string& y)
+            {
+                return x.compare(0, prefix.length(), y.substr(0, prefix.length())) < 0;
+            });
+        return std::make_pair(itr.first, itr.second);
 }
 
     

@@ -43,7 +43,7 @@ class Cat{
 
 class Dog{
     
-}
+};
 
 
 int main(int argc, const char * argv[]) {

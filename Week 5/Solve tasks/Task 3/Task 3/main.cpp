@@ -30,7 +30,7 @@ public:
         notifier_type = number;
         
     }
-    void Notify(const string& message) const override{
+    virtual void Notify(const string& message) const override{
         SendSms(notifier_type, message);
     }
 };
@@ -40,7 +40,7 @@ public:
     EmailNotifier(const string& email) {
         notifier_type = email;
     }
-    void Notify(const string& message) const override{
+    virtual void Notify(const string& message) const override{
         SendEmail(notifier_type, message);
     }
 };

@@ -40,7 +40,7 @@ public:
     EmailNotifier(const string& email) {
         notifier_type = email;
     }
-    virtual void Notify(const string& message) const override{
+    void Notify(const string& message) const override{
         SendEmail(notifier_type, message);
     }
 };

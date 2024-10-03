@@ -1,7 +1,7 @@
 #### Курсовой проект ####
 #### Введение ####
 
-В курсе «Белый пояс по С++» [финальным заданием](https://www.coursera.org/learn/c-plus-plus-white/home/welcome) была разработка базы данных, которая работала с парами (дата, событие). В этой задаче вам нужно развить эту базу данных, научив её выбирать и удалять события, удовлетворяющие заданному условию, а также разделив её код на несколько файлов
+В курсе «Белый пояс по С++» [финальным заданием](https://github.com/BilyalovE/White-belt/blob/main/Week%205/Final%20task/Task.md) была разработка базы данных, которая работала с парами (дата, событие). В этой задаче вам нужно развить эту базу данных, научив её выбирать и удалять события, удовлетворяющие заданному условию, а также разделив её код на несколько файлов
 
 Более подробно, ваша программа должна уметь обрабатывать набор команд:
 
@@ -203,17 +203,17 @@ No entries
 
 #### Заготовки файлов ####
 
-[token.h](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/token.h)
+[token.h](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/token.h)
 
-[token.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/token.cpp)
+[token.cpp](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/token.cpp)
 
-[condition_parser.h](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/condition_parser.h)
+[condition_parser.h](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/condition_parser.h)
 
-[condition_parser.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/condition_parser.cpp)
+[condition_parser.cpp](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/condition_parser.cpp)
 
-[condition_parser_test.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/condition_parser_test.cpp)
+[condition_parser_test.cpp](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/condition_parser_test.cpp)
 
-[main.cpp](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/Source/main.cpp)
+[main.cpp](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/main.cpp)
 
 Обратите внимание, что в файле _main.cpp_ мы используем наш фреймворк юнит-тестов, для тестирования функций _ParseCondition_ и _ParseEvent_. В процессе работы над проектом вы можете разрабатывать свои тесты и добавлять их в функцию _TestAll_ .
 
@@ -221,10 +221,10 @@ No entries
 
 Для этой задачи есть набор подсказок, которые должны помочь вам с решением. Если вам не удаётся решить задачу и вы чувствуете, что у вас кончились идеи, вы можете ими воспользоваться. Но сначала обязательно попробуйте решить задачу без подсказок.
 
-[Подсказка 1.pdf](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/help1.pdf)
+[Подсказка 1.pdf](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/help1.pdf)
 
-[Подсказка 2.pdf](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/help2.pdf)
+[Подсказка 2.pdf](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/help2.pdf)
 
-[Подсказка 3.pdf](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/help3.pdf)
+[Подсказка 3.pdf](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/help3.pdf)
 
-[Подсказка 4.pdf](https://github.com/Hitoku/basics-of-c-plus-plus-development-yellow-belt/blob/master/Week_6/01%20Programming%20Assignment/help4.pdf)
+[Подсказка 4.pdf](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/help4.pdf)

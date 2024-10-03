@@ -66,5 +66,5 @@
 
 
 # Неделя 6
-* [Курсовой проект](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%201.md) 
+* [Курсовой проект](https://github.com/BilyalovE/Yellow-Belt/blob/main/Final%20task/Task/Task.md) 
 

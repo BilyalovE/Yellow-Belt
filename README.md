@@ -63,3 +63,8 @@
 * [Набор фигур](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%202.md)  
 * [Отправка уведомлений](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%203.md)
 * [Грамотно рефакторим код](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%204.md)
+
+
+# Неделя 6
+* [Курсовой проект](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%201.md) 
+

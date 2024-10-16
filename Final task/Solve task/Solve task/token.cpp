@@ -1,25 +1,24 @@
 #include "token.h"
 
-#include <stdexcept>
+//#include <stdexcept>
 
-using namespace std;
+//using namespace std;
 
 vector<Token> Tokenize(istream& cl) {
-  vector<Token> tokens;
-
-  char c;
-  while (cl >> c) {
-    if (isdigit(c)) {
-      string date(1, c);
-      for (int i = 0; i < 3; ++i) {
-        while (isdigit(cl.peek())) {
-          date += cl.get();
-        }
-        if (i < 2) {
-          date += cl.get(); // Consume '-'
-        }
-      }
-      tokens.push_back({date, TokenType::DATE});
+    vector<Token> tokens;
+    char c;
+    while (cl >> c) {
+        if (isdigit(c)) {
+          string date(1, c);
+          for (int i = 0; i < 3; ++i) {
+            while (isdigit(cl.peek())) {
+              date += cl.get();
+            }
+            if (i < 2) {
+              date += cl.get(); // Consume '-'
+            }
+          }
+        tokens.push_back({date, TokenType::DATE});
     } else if (c == '"') {
       string event;
       getline(cl, event, '"');

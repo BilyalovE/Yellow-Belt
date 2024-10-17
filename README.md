@@ -1,10 +1,11 @@
 # Решения задач специализации "Искусство разработки на современном С++". Курс "Основы разработки на С++: желтый пояс"
 ![belt.jpg](https://github.com/BilyalovE/Belt/blob/main/Week%201/belt.jpg)
 
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%201/Lectures/week1.pdf/" style="color: black">Конспект лекций по всему курсу</a>
 
 # Неделя 1
 ## <a href="https://disk.yandex.ru/d/rvGKbI1Iycv-fg" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Yellow-belt/blob/main/Week%201/Lectures/" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%201/Lectures/week1.pdf/" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Вводная задача](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%201/Tasks/Task%20(1).md) 
@@ -17,7 +18,7 @@
 
 # Неделя 2
 ## <a href="https://disk.yandex.ru/d/5GzRIrluFr6jzA" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Yellow-belt/tree/main/Week%202/Lectures" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%202/Lectures/week2.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Декомпозиция программы](https://github.com/BilyalovE/Yellow-belt/blob/main/Week%202/Tasks/Task%20(1).md) 
@@ -28,7 +29,7 @@
 
 # Неделя 3
 ## <a href="https://disk.yandex.ru/d/ATo3KwFifX3TMw" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week3.pdf" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%203/Lectures/week3.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Реализовать функции, объявленные в заголовочном файле](https://github.com/BilyalovE/Belt/blob/main/Week%203/Tasks/Task%201/Task%20(1).md) 
@@ -38,7 +39,7 @@
 
 # Неделя 4     
 ## <a href="https://disk.yandex.ru/d/2u60LLiNoeLIpA" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week4.pdf" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Lectures/week4.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Часть вектора](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%204/Tasks/Task%201.md) 
@@ -56,7 +57,7 @@
 
 # Неделя 5    
 ## <a href="https://disk.yandex.ru/d/2u60LLiNoeLIpA" style="color: black">Видеолеции</a>
-## <a href="https://github.com/BilyalovE/Belt/blob/main/Week%203/Lectures/week5.pdf" style="color: black">Конспект лекций</a>
+## <a href="https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Lectures/week5.pdf" style="color: black">Конспект лекций</a>
 ## Задачи
 
 * [Наследование своими руками](https://github.com/BilyalovE/Yellow-Belt/blob/main/Week%205/Tasks/Task%201.md) 
